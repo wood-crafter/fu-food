@@ -8,7 +8,7 @@ const user = {
     username: "",
     password: ""
 };
-var isEmptyInfo = false;
+let isEmptyInfo = false;
 export default {
     user,
     isEmptyInfo,
