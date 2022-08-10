@@ -26,7 +26,7 @@ export default {
             FUFoodCommon.sweetAlert(FUFoodConstant.FU_FOOD_TITLE, FUFoodMessage.LOGIN_SUCCESS, FUFoodCommon.successIcon);
             router.push("/");
         } else {
-            FUFoodCommon.sweetAlert(FUFoodConstant.FU_FOOD_TITLE, FUFoodMessage.LOGIN_FAILED, FUFoodCommon.errorIccon);
+            FUFoodCommon.sweetAlert(FUFoodConstant.FU_FOOD_TITLE, FUFoodMessage.LOGIN_FAILED, FUFoodCommon.errorIcon);
         }
     }
 };

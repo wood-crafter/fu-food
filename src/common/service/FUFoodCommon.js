@@ -1,12 +1,12 @@
 const successIcon = 'success';
 const warningIcon = 'warning';
-const infoIccon = 'info';
-const errorIccon = 'error';
+const infoIcon = 'info';
+const errorIcon = 'error';
 export default {
     successIcon,
     warningIcon,
-    infoIccon,
-    errorIccon,
+    infoIcon,
+    errorIcon,
     sweetAlert(title, message, icon, callback) {
         return Swal.fire({
             title: title,
